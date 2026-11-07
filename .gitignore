@@ -1,0 +1,54 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+
+# Never ignore Asset meta files
+![Aa]ssets/**/*.meta
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / Rider / VS Code cache directory
+.vs/
+.idea/
+.vscode/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.opendb
+/*.VC.db
+
+# Unity-generated files and folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity serializes these to disk
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Unity package cache
+Packages/packages-lock.json.bak
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.slnx
